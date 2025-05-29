@@ -7,13 +7,10 @@
 		<SiGithub />
 	</a>
 </div>
-
 <div class="main">
-	<div class="flex min-h-screen items-center justify-center">
-		<article class="prose prose-2xl">
-			<h1>Nertaicon</h1>
-		</article>
-	</div>
+	<article class="prose prose-2xl">
+		<h1>Nertaicon</h1>
+	</article>
 </div>
 
 <style>
@@ -35,5 +32,10 @@
 		background: linear-gradient(to right, var(--color-primary), var(--color-accent));
 		background-clip: text;
 		color: transparent;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
 	}
 </style>
